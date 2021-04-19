@@ -1,0 +1,220 @@
+/* Import */
+@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+/* Reset Templete */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-boxs;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Body */
+body {
+  background: #0e0e0eb9;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+}
+
+/* Container */
+.container {
+  margin: auto;
+  padding: 0% 5%;
+  max-width: 1920px;
+  overflow: auto;
+}
+
+/* Header */
+.main-heading {
+  font-family: "Original Surfer";
+  font-size: 2.5rem;
+  padding: 15px 0px;
+  margin-bottom: 50px;
+}
+
+/* Main Section */
+.hint {
+  font-family: "Original Surfer";
+  color: cyan;
+  font-size: 1.75rem;
+  margin-bottom: 50px;
+}
+.guessed-number {
+  display: block;
+  margin: auto;
+  font-size: 2.5rem;
+  border: white 2.5px dashed;
+  width: 75px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+.status {
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+.input-class {
+  margin-bottom: 25px;
+}
+.output-class {
+  color: yellow;
+  font-size: 1.15rem;
+  margin-bottom: 25px;
+}
+.number-input {
+  height: 50px;
+  width: 100px;
+  border-radius: 50px;
+  border: rgba(14, 14, 14, 0.726) 1px solid;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.25rem;
+}
+.number-input:focus {
+  outline: none;
+  border: black solid 2px;
+}
+.btn {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  border: rgba(14, 14, 14, 0.726) 1px solid;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.lite {
+  background-color: yellowgreen;
+  color: black;
+}
+.lite:hover {
+  background-color: green;
+  color: white;
+}
+.dark {
+  background-color: tomato;
+}
+.dark:hover {
+  background-color: red;
+  color: white;
+}

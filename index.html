@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Number Guess Game is a simple puzzle game"
+    />
+    <meta
+      name="keywords"
+      content="Number Guess Game, Puzzle Game, Online Game"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="shortcut icon" href="/shortcut-icon.svg" />
+
+    <title>Number Guess Game</title>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <h1 class="main-heading">Guess The Number!!</h1>
+      </div>
+    </header>
+
+    <section class="main-section">
+      <div class="container">
+        <h1 class="hint">Initial Hint: Number Must Be in Between 1 to 25</h1>
+        <h2 class="guessed-number">?</h2>
+        <h2 class="status">Enter a Number!</h2>
+        <div class="input-class">
+          <input type="number" class="number-input" />
+          <input type="button" class="btn lite" value="Check" />
+        </div>
+        <div class="output-class">
+          <h2 class="high-score">High Score: 0</h2>
+          <br />
+          <h2 class="points">Points: 15</h2>
+        </div>
+        <input type="button" class="btn dark" value="Again!" />
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
