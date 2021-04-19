@@ -2,7 +2,7 @@
 ### Live Preview: http://numberguessbynabil.hstn.me/
 
 ### Summary:
-This is a simple brainstorming online puzzle game where player has to guess a hidden number
+This is a simple brainstorming online puzzle game where player has to guess a hidden number.
 
 ### Game Rules:
   * A hidden number is to be guessed.
