@@ -8,7 +8,7 @@ This is a simple brainstorming online puzzle game where player has to guess a hi
   * A hidden number is to be guessed.
   * In every guess, it will give a verdict if it is too high or low.
   * For every wrong guess, there will be a penalty.
-  * if it can is guessed within a limited number of steps then the player wins. Otherwise player loses.
+  * If it can is guessed within a limited number of steps then the player wins. Otherwise player loses.
 
 ### Language Used:
 To make this application, I used the following languages:
