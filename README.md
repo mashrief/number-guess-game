@@ -20,7 +20,6 @@ To make this application, I used the following languages:
 - [Visual Studio Code](http://code.visualstudio.com) - The editor of choice.
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - The editor pages on-the-fly and problem diagnostic.
 - [npm Live Server](https://www.npmjs.com/) - Development server with live reload capability.
-- [OpenWeather API](https://openweathermap.org/api) - Public API to retrieve weather data for cities.
 
 ### Cons:
   * After winning or losing "Check" button disables but CSS hover still functional.
